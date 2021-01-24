@@ -1,1 +1,1 @@
-alert('Hola :D');
+console.log('Hello u  w u);
