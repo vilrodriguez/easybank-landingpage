@@ -1,0 +1,25 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "Responsive landing page",
+  "main": "src/js/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilrodriguez/easybank-landingpage.git"
+  },
+  "keywords": [
+    "hmtl5",
+    "css",
+    "sass",
+    "scss",
+    "javascript"
+  ],
+  "author": "Vilmarys rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vilrodriguez/easybank-landingpage/issues"
+  },
+  "homepage": "https://github.com/vilrodriguez/easybank-landingpage#readme"
+}
