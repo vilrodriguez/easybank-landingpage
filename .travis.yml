@@ -12,7 +12,6 @@ deploy:
   skip_cleanup: true
   keep_history: true
   github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
-  local_dir: dist/
   target-branch: gh-pages
   commit_message: "Deploy Release"
   on:
