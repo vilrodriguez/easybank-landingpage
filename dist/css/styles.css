@@ -1,3 +1,27 @@
+.header nav {
+  padding: 1.5rem;
+}
+
+.header__menu > span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #2d314d;
+}
+
+.header__menu > span:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.header__links a {
+  font-size: 0.875rem;
+  color: #9698a6;
+}
+
+.header__cta {
+  color: 4white;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -57,27 +81,15 @@ button, .button {
   background: linear-gradient(to right, #31d35c, #2bb7da);
 }
 
-.header nav {
-  padding: 1.5rem;
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
 }
 
-.header__menu > span {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #2d314d;
-}
-
-.header__menu > span:not(:last-child) {
-  margin-bottom: 3px;
-}
-
-.header__links a {
-  font-size: 0.875rem;
-  color: #9698a6;
-}
-
-.header__cta {
-  color: 4white;
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
