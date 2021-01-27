@@ -23,11 +23,18 @@
   }
   &__links{
     a {
-      font-size: 0.875rem;
+      font-size: $font-sm;
       color: $grayishBlue;
+
+      &:not(:last-child){
+        margin-right: 32px;
+      }
     }
   }
   &__cta{
     color: 4white;
   }
 }
+
+// 38: minutes in video
+// https: //www.youtube.com/watch?v=aoQ6S1a32j8&feature=youtu.be

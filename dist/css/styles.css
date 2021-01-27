@@ -18,6 +18,10 @@
   color: #9698a6;
 }
 
+.header__links a:not(:last-child) {
+  margin-right: 32px;
+}
+
 .header__cta {
   color: 4white;
 }
@@ -77,6 +81,7 @@ button, .button {
   font-weight: 400;
   border-radius: 50px;
   padding: 1rem 1.875rem;
+  font-size: 0.875rem;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(to right, #31d35c, #2bb7da);
 }
