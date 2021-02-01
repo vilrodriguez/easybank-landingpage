@@ -19,6 +19,12 @@ body {
 a, a:visited, a:hover{
   text-decoration: none;
 }
+
+//SPACING
+.container {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
 // FLEXBOX
 
 .flex {
@@ -39,10 +45,10 @@ a, a:visited, a:hover{
 button, .button {
   border: 0;
   color: $white;
+  font-size: $font-sm;
   font-weight: 400;
   border-radius: 50px;
   padding: 0.875rem 2.1875rem;
-  font-size: $font-sm;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
 }
 
