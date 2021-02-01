@@ -1,6 +1,9 @@
 .header{
-  // HMBURGER OPEN STYLES
+  // HAMBURGER OPEN STYLES
   &.open {
+    // .overlay{
+    //   // display: none;
+    // }
     .header__menu{
       >span:first-child {
         transform: rotate(45deg);
@@ -13,7 +16,6 @@
       >span:last-child {
         transform: rotate(-45deg);
       }
-
     }
   }
   nav {
@@ -84,6 +86,8 @@
 }
 
 .overlay {
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   top: 3.75rem;
   right:0;
