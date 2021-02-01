@@ -41,7 +41,8 @@ button, .button {
   color: $white;
   font-weight: 400;
   border-radius: 50px;
-  padding: 1rem 1.875rem;
+  padding: 0.875rem 2.1875rem;
+  font-size: $font-sm;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
 }
 

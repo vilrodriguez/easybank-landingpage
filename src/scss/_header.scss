@@ -2,11 +2,13 @@
   nav {
     padding: 1.5rem;
   }
-  // $__logo{
-  //   img {
 
-  //   }
-  // }
+  &__logo{
+    img {
+      width: 141px;
+      height: 22px;
+    }
+  }
   // MOBILE MENU
   &__menu{
     > span{
@@ -23,11 +25,18 @@
   }
   &__links{
     a {
-      font-size: 0.875rem;
+      font-size: $font-sm;
       color: $grayishBlue;
+
+      &:not(:last-child){
+        margin-right: 2rem;
+      }
     }
   }
   &__cta{
     color: 4white;
   }
 }
+
+// 38: minutes in video
+// https: //www.youtube.com/watch?v=aoQ6S1a32j8&feature=youtu.be
