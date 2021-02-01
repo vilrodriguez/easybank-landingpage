@@ -16,6 +16,8 @@
     }
   }
   nav {
+    position: relative;
+    background-color: $white ;
     padding-top: 1.065rem;
     padding-bottom: 1.065rem;
   }
@@ -83,7 +85,12 @@
   }
   &__menu{
     background-color: $white;
+    // background-color: pink;
+    margin: 1.5rem 1.5rem;
     padding: 1.625rem;
+    position:absolute;
+    width: calc(100% - 3rem);
+    border-radius: 5px;
     a {
       display: block;
       text-align: center;
@@ -97,9 +104,9 @@
 
 .overlay {
   opacity: 0;
-  visibility: hidden;
+  // visibility: hidden;
   position: fixed;
-  top: 3.75rem;
+  top: 0;
   right:0;
   bottom: 0;
   left:0;
