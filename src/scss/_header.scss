@@ -20,6 +20,8 @@
     background-color: $white ;
     padding-top: 1.065rem;
     padding-bottom: 1.065rem;
+    margin: 0 auto;
+    max-width: 69.375rem;
   }
 
   &__logo{
@@ -74,15 +76,7 @@
       }
     }
   }
-  &__cta{
-    color: 4white;
-    font-size: $font-sm;
-    transition: opacity 300ms ease-in-out;
 
-    &:hover{
-      opacity: 0.70;
-    }
-  }
   &__menu{
     background-color: $white;
     // background-color: pink;

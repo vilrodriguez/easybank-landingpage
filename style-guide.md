@@ -45,7 +45,7 @@ https://i.postimg.cc/5jNXKYh7/favicon-32x32.png
 
 [url=https://postimg.cc/N5K5BhfR][img]https://i.postimg.cc/N5K5BhfR/image-currency.jpg[/img][/url]
 
-[url=https://postimg.cc/wtpvX75k][img]https://i.postimg.cc/wtpvX75k/image-mockups.png[/img][/url]
+[url=https://postimg.cc/wtpvX75k][img]https://i.postimg.cc/s3m979yf/image-mockups.png
 
 [url=https://postimg.cc/2Vg35HVM][img]https://i.postimg.cc/2Vg35HVM/image-plane.jpg[/img][/url]
 
