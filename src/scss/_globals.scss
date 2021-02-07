@@ -8,17 +8,29 @@ html{
 }
 
 body {
-  margin: 0;
   padding: 0;
   line-height: 1.2;
   font-size: $font-med;
   color: $grayishBlue;
   font-family: 'Public Sans', sans-serif;
   font-weight: 300;
+    
+    @include breakpoint-up(large) {
+      font-size: $font-med;
+    }
 
   &.noscroll{
     overflow: hidden;
   }
+}
+
+h1{
+  font-size: $font-xlg;
+  color: $darkBlue;
+  font-weight: normal;
+}
+h1, h2, h3 {
+  margin-top: 0;
 }
 a, a:visited, a:hover{
   text-decoration: none;
@@ -26,8 +38,34 @@ a, a:visited, a:hover{
 
 //SPACING
 .container {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+  max-width: 69.375rem;
+  margin: 0 auto;
+  &--pall{
+      padding-left: 1.75rem;
+      padding-right: 1.75rem;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+  }
+  &--py{ // vertical axis
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+  }
+  &--px { // horizontal axis
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+  &--pt{
+    padding-top: 2.5rem;
+  }
+  &--pr{
+    padding-right: 1.75rem;
+  }
+  &--pb{
+    padding-bottom: 2.5rem;
+  }
+  &--pl{
+    padding-left: 1.75rem;
+  }
 }
 // FLEXBOX
 
@@ -48,12 +86,18 @@ a, a:visited, a:hover{
 //BUTTONS
 button, .button {
   border: 0;
+  display: inline-block;
   color: $white;
   font-size: $font-sm;
   font-weight: 400;
   border-radius: 50px;
   padding: 0.875rem 2.1875rem;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
+  transition: opacity 300ms ease-in-out;
+    
+    &:hover {
+      opacity: 0.70;
+    }
 }
 
 // VISIBILITY
