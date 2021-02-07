@@ -37,7 +37,9 @@ The designs were created to the following widths:
 
 https://postimg.cc/gallery/1VDrMP6
 
-[url=https://postimages.org/][img]https://i.postimg.cc/5jNXKYh7/favicon-32x32.png[/img][/url]
+[url=https://postimages.org/][img]
+https://i.postimg.cc/5jNXKYh7/favicon-32x32.png
+[/img][/url]
 
 [url=https://postimg.cc/PN3Pgfht][img]https://i.postimg.cc/PN3Pgfht/image-confetti.jpg[/img][/url]
 
