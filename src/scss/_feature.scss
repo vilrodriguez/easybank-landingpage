@@ -1,15 +1,24 @@
 .feature{
   &__grid{
-    @include breakpoint-up(large){
+    @include breakpoint-up(medium){
       display: flex;
+      flex-wrap: wrap;
     }
   }
   &__item{
+    text-align: center;
+    padding: 0.9375rem;
+    // border: 2px solid salmon;
+    
+    @include breakpoint-up(medium){
+      text-align: left;
+      flex: 1 0 50%; // flex grow, flex shrink flex basis
+    }
     @include breakpoint-up(large) {
       flex: 1;
     }
   }
-  &__icon{}
-  &__title {}
-  &__description{}
+  // &__icon{}
+  // &__title {}
+  // &__description{}
 }
