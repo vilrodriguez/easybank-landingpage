@@ -11,7 +11,7 @@
 
   &__image {
     position: relative;
-    background-image: url("/images/bg-intro-mobile.svg");
+    background-image: url("https://raw.githubusercontent.com/vilrodriguez/easybank-landingpage/d47e7631d0feb917ef4b1f65cc8ebf9451958d95/images/bg-intro-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 58%;
@@ -35,7 +35,7 @@
         content: "";
         position: absolute;
         height: 107%;
-        background-image: url("/images/bg-intro-desktop.svg");
+        background-image: url("https://raw.githubusercontent.com/vilrodriguez/easybank-landingpage/d47e7631d0feb917ef4b1f65cc8ebf9451958d95/images/bg-intro-desktop.svg");
         background-repeat: no-repeat;
         background-position: center bottom;
         width: 166%;
