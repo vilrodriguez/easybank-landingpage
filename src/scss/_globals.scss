@@ -9,6 +9,7 @@ html{
 
 body {
   padding: 0;
+  margin: 0;
   line-height: 1.2;
   font-size: $font-med;
   color: $grayishBlue;
@@ -24,14 +25,35 @@ body {
   }
 }
 
-h1{
-  font-size: $font-xlg;
+h1, h2, h3{
+  margin-top: 0%;
   color: $darkBlue;
-  font-weight: normal;
+  font-weight: 300;
+  line-height: 1.15;
 }
-h1, h2, h3 {
-  margin-top: 0;
+h1{
+  font-size: 2.31rem;
+  margin-bottom: 1.5rem;
+
+  @include breakpoint-up(large){
+  font-size: $font-xlg;
+  }
 }
+h2{
+  font-size: 1.875rem;
+  margin-bottom: 1.525rem;
+
+  @include breakpoint-up(large){
+    font-size: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+}
+
+p{
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
+}
+
 a, a:visited, a:hover{
   text-decoration: none;
 }
@@ -43,25 +65,41 @@ a, a:visited, a:hover{
   &--pall{
       padding-left: 1.75rem;
       padding-right: 1.75rem;
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem;
+      padding-top: 4.375rem;
+      padding-bottom: 4.375rem;
+
+      @include breakpoint-up(large){
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
   }
   &--py{ // vertical axis
-      padding-top: 2.5rem;
-      padding-bottom: 2.5rem;
+      padding-top: 4.375rem;
+      padding-bottom: 4.375rem;
+      
+      @include breakpoint-up(large) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
   }
   &--px { // horizontal axis
     padding-left: 1.75rem;
     padding-right: 1.75rem;
   }
   &--pt{
-    padding-top: 2.5rem;
+    padding-top: 4.375rem;
+      @include breakpoint-up(large) {
+        padding-top: 6rem;
+      }
   }
   &--pr{
     padding-right: 1.75rem;
   }
   &--pb{
-    padding-bottom: 2.5rem;
+    padding-bottom: 4.375rem;
+      @include breakpoint-up(large) {
+        padding-bottom: 6rem;
+      }
   }
   &--pl{
     padding-left: 1.75rem;
