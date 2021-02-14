@@ -10,11 +10,12 @@ html{
 body {
   padding: 0;
   margin: 0;
-  line-height: 1.2;
-  font-size: $font-med;
-  color: $grayishBlue;
   font-family: 'Public Sans', sans-serif;
+  font-size: $font-med;
   font-weight: 300;
+  line-height: 1.2;
+  color: $grayishBlue;
+  overflow-x: hidden;
     
     @include breakpoint-up(large) {
       font-size: $font-med;
