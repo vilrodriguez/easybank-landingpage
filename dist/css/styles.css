@@ -108,13 +108,14 @@ h1 {
 
 h2 {
   font-size: 1.875rem;
-  margin-bottom: 1.525rem;
+  margin-bottom: 2.25rem;
+  text-align: center;
 }
 
 @media (min-width: 64em) {
   h2 {
     font-size: 2.25rem;
-    margin-bottom: 2.25rem;
+    text-align: left;
   }
 }
 
@@ -578,9 +579,6 @@ button:hover::before, .button:hover::before {
 }
 
 .article__item {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   border-radius: 5px;
   overflow: hidden;
   -webkit-box-shadow: 0px 3px 12px rgba(82, 81, 81, 0.15);
@@ -592,6 +590,12 @@ button:hover::before, .button:hover::before {
           transform: scale(1.03);
   -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
+}
+
+@media (min-width: 64em) {
+  .article__item {
+    height: 522px;
+  }
 }
 
 .article__img {
