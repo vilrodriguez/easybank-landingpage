@@ -623,58 +623,41 @@ button:hover, .button:hover {
 .footer {
   background-color: #2d314d;
   color: white;
-  padding: 2.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  font-size: 0.875rem;
-}
-
-@media (min-width: 64em) {
-  .footer {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[3] 2fr;
-        grid-template-columns: repeat(3, 1fr) 2fr;
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: "logo links1 links2 cta" "social links1 links2 cta";
-  }
 }
 
 .footer a {
-  color: white;
-  display: inline-block;
-  font-weight: 300;
+  color: #f3f4f6;
+  font-size: 1rem;
+}
+
+.footer .container {
+  width: 100%;
+  padding: 2.5rem 3.75rem 2.5rem 3.75rem;
 }
 
 .footer__logo {
   display: inline-block;
-  margin-bottom: 1.875rem;
-}
-
-@media (min-width: 64em) {
-  .footer__logo {
-    grid-area: logo;
-  }
+  margin-bottom: 1.75rem;
 }
 
 .footer__social {
-  margin-bottom: 1.875rem;
-  color: #9698a6;
+  margin-bottom: 1.75rem;
 }
 
-@media (min-width: 64em) {
-  .footer__social {
-    grid-area: social;
-  }
+.footer__social a {
+  display: inline-block;
 }
 
-.footer__social a > img {
-  width: 25px;
-  height: 23px;
+.footer__social a img {
+  width: 1.5625rem;
 }
 
 .footer__social a:not(:last-child) {
-  margin-right: 24px;
+  margin-right: 1rem;
 }
 
 .footer__links {
@@ -685,50 +668,21 @@ button:hover, .button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   line-height: 2;
 }
 
-@media (min-width: 64em) {
-  .footer__links {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
-
-@media (min-width: 64em) {
-  .footer__links.col1 {
-    grid-area: links1;
-  }
-}
-
 .footer__links.col2 {
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.75rem;
 }
 
-@media (min-width: 64em) {
-  .footer__links.col2 {
-    grid-area: links2;
-  }
+.footer__cta {
+  margin-bottom: 1.75rem;
 }
 
-@media (min-width: 64em) {
-  .footer__cta {
-    grid-area: cta;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
-}
-
-.footer__cta a {
-  margin-bottom: 1.875rem;
-}
-
-.footer__cta p {
+.footer .copyright {
   color: #9698a6;
 }
 /*# sourceMappingURL=styles.css.map */
