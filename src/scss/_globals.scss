@@ -42,11 +42,12 @@ h1{
 }
 h2{
   font-size: 1.875rem;
-  margin-bottom: 1.525rem;
+  margin-bottom: 2.25rem;
+  text-align: center;
 
   @include breakpoint-up(large){
     font-size: 2.25rem;
-    margin-bottom: 2.25rem;
+    text-align: left;
   }
 }
 
